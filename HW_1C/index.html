@@ -1,1 +1,69 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Goal Tracker</title>
+    
+    <link href="css/style.css" rel="stylesheet">
+    
+</head>
+<body>
+    <h1 class="title" id="MainTitle">
+        Hello, Joe Ferguson!
+    </h1>
+    
+    <svg class="graphic" id="happy" width="600" height="600">
+        <circle cx="250" cy="225" r="5" fill="green" />
+        <circle cx="300" cy="225" r="5" fill="green" />
+        
+        <path d="M250 245 Q275 260 300 245" stroke="green" stroke-width="3" fill="transparent" />
+    </svg>
+    <svg class="graphic" id="neutral" width="600" height="600">
+        <circle cx="250" cy="225" r="5" fill="green" />
+        <circle cx="300" cy="225" r="5" fill="green" />
+        
+        <path d="M250 245 Q275 245 300 245" stroke="green" stroke-width="3" fill="transparent" />
+    </svg>
+    <svg class="graphic" id="sad" width="600" height="600">
+        <circle cx="250" cy="225" r="5" fill="green" />
+        <circle cx="300" cy="225" r="5" fill="green" />
+        
+        <path d="M250 245 Q275 230 300 245" stroke="green" stroke-width="3" fill="transparent" />
+    </svg>
+    
+    <div class="top">
+        <p id="HoursSlept">Average Hours Slept: </p>
+        <p id="HappyDays">Happy Days: </p>
+        <p id="NeutralDays">Neutral Days: </p>
+        <p id="SadDays">Sad Days: </p>
+    </div>
+    <div class="left">
+        <h2 class="Header">Current Mood</h2>
+        <img src="img/mountain.png"> <!--Free from https://www.freepik.com/photos/vision-->
+        <div>
+            <p>Latest entry: <time datetime="2025-08-30 22:00">10:00pm 08/30/2025</time>.</p>
+            <p>
+                "Nothing is all it takes for lightning to stike"-Herman Hesse
+            </p>
+        </div>
+    </div>
+    <!--Ride-Side Add Goal-->
+    <div class="right">
+        <h2 class="Header">Add Entry</h2>
+        <label for="textbox1">Journal Entry: </label><textarea id="textbox1" rows="6" cols="50" placeholder="Write your thoughts here..."></textarea>
+        <label for="sleepinput">Enter Sleep Hours: </label><input type="number" id="sleepinput">
+        <div class="checkboxes">
+            <label for="happycheckbox">Happy?</label><input type="checkbox" id="happycheckbox">
+            <label for="neutralcheckbox">Neutral?</label><input type="checkbox" id="neutralcheckbox">
+            <label for="sadcheckbox">Sad?</label><input type="checkbox" id="sadcheckbox">
+        </div>
+        <button id="submitbtn">Submit</button>
+    </div>
+    <div class="bottom">
+        <div id="PastEntries">
 
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

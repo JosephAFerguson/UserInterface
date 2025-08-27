@@ -1,0 +1,71 @@
+/* This is an empty style sheet in CSS */
+.top{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    align-content: center;
+    color: maroon;
+    background-color: lightgray;
+}
+.left{
+    float: left;
+    color: green;
+    background-color: aquamarine;
+    margin: 2%;
+    padding-right: 2%;
+    border-color:rgb(0,255,0);
+    border-radius: 2%;
+}
+.graphic{
+    position:absolute;
+}
+#happy, #neutral, #sad {
+    display: none;
+}
+.right{
+    float: left;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: red;
+    background-color: antiquewhite;
+    border-color:rgb(255,255,0);
+    border-radius: 2%;
+}
+.bottom{
+    clear: both;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: purple;
+    background-color: rgb(205, 224, 35);
+}
+.entries{
+    float: bottom;
+}
+.checkboxes{
+    margin-top:2%;
+}
+.Header{
+    font-size: large;
+}
+label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#textbox1 {
+    width: 95%;        /* nearly full width of the container */
+    height: 150px;     /* fixed height */
+    resize: vertical;  /* allow user to stretch it vertically */
+    font-size: 1rem;   /* larger text */
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#submitbtn{
+    margin-top: 2%;
+}
+#MainTitle{
+    font-style: italic;
+    text-align: center;
+    background-color: beige;
+}
+
