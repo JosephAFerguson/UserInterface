@@ -4,14 +4,15 @@ const neutralcheckbox = document.getElementById("neutralcheckbox");
 const sadcheckbox = document.getElementById("sadcheckbox");
 // array object to store entries
 let entries = [
-    {datetime: "2025-08-31 12:37am", sleepinput: 7, mood:"happy", entry: "Today I felt Amazing..."},
-    {datetime: "2025-09-01 12:35am", sleepinput: 5, mood:"neutral", entry: "Today I felt Ok..."},
-    {datetime: "2025-09-02 12:39am", sleepinput: 4, mood:"sad", entry: "Today I felt Sad..."}
+    {datetime: "8/24/2025, 8:08:18 PM", sleepinput: 7, mood:"happy", entry: "Today I felt Amazing..."},
+    {datetime: "8/25/2025, 8:08:18 PM", sleepinput: 5, mood:"neutral", entry: "Today I felt Ok..."},
+    {datetime: "8/26/2025, 8:08:18 PM", sleepinput: 4, mood:"sad", entry: "Today I felt Sad..."}
 ];
 for(i = 0; i < entries.length;i++)
 {
-    document.getElementById("PastEntries").innerHTML +=
-        `<div>Date: ${entries[i].datetime} | Entry: ${entries[i].entry} | Sleep: ${entries[i].sleepinput} | Mood: ${entries[i].mood}</div>`;
+    document.getElementById("PastEntries").innerHTML = 
+        `<div>Date: ${entries[i].datetime} | Entry: ${entries[i].entry} | Sleep: ${entries[i].sleepinput} | Mood: ${entries[i].mood}</div>`
+        + document.getElementById("PastEntries").innerHTML;
 }
 UpdateStats();
 function AddEntry(datetimeInput, sleepinput, moodInput, entryInput){
@@ -22,8 +23,9 @@ function AddEntry(datetimeInput, sleepinput, moodInput, entryInput){
         entry: entryInput
     });
 
-    document.getElementById("PastEntries").innerHTML += 
-   `<div>Date: ${datetimeInput} | Entry: ${entryInput} | Sleep: ${sleepinput} | Mood: ${moodInput}</div>`;
+    document.getElementById("PastEntries").innerHTML = 
+        `<div>Date: ${datetimeInput} | Entry: ${entryInput} | Sleep: ${sleepinput} | Mood: ${moodInput}</div>`
+        + document.getElementById("PastEntries").innerHTML;
 
 }
 function UpdateStats(){
@@ -48,6 +50,7 @@ function UpdateStats(){
     document.getElementById("HappyDays").innerText = "Happy Days: " + happy;
     document.getElementById("NeutralDays").innerText = "Neutral Days: " + neutral;
     document.getElementById("SadDays").innerText = "Sad Days: " + sad;
+    document.getElementById("dateentry").innerText = "Latest entry: " + entries[entries.length - 1].datetime;
 
 }
 // show last mood on load
