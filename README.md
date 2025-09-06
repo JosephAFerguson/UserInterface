@@ -23,7 +23,7 @@ I get these new stats at the top of my screen:
 <details>
   I started with the advanced javascript tutorial linked. Fortunately, I have already had a little experience with javascript so reviewing this material was not too hard. I then completely the part 1 of the homework - the advanced javascript questions.
   After this I followed throught the svelte tutorial, downloaded vscode, node.jc, and setup my svelte project folder in vscode for project 1. This completeled one task for the svelte part of this HW.
-  The next things to do were to contribute to project 1. I will link that here []().
+  The next things to do were to contribute to project 1. I will link that here [Project 1](readmes/Project1.readme).
 </details>
 
 
