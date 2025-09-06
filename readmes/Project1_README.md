@@ -7,15 +7,13 @@ Once they are done with prototyping the interface, they will create a mock user 
 Here is my documentation of my work on project 1.
 
 # Design
-  # Interviews
+  *Interviews*
 
-  # Scetching
+  *Scetching*
 
-  # Prototyping & Feedback
+  *Prototyping & Feedback*
 
-  # Implementation Start Version
+  *Implementation Start Version*
 
 
-### Implementation
-<details>
-</details>
+
