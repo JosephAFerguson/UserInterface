@@ -26,9 +26,33 @@ Here is my documentation of my work on project 1.
 
    These interviews helped me solidify some of my initial thoughts for the design, as well as gave me more things to add for the application itself.
    I created a list of features I needed based on the interview, and highlighted other features I was still unsure of.
+
+   I decided to cut some features requested in the interview out for the initial phase. Mainly, posting videos of lifts, and the tracking by workout split. I was unsure of how to implement comparing videos of lifts, I thought photos for each entry should be suficcient.
+   For tracking by workout split, I realized this option would need another type of calendar, or a different view altogether. Some workout splits are asynchronous (they don't follow a weekly repitition), which adds further complexity. I though a monthly calendar would suffice.
    
+   # Goals/Features Needed:
+    * Dashboard View
+      - Trending Total & Bodyweight Numbers
+      - Overview chart for SBD numbers over time
+    * Calendar View
+      - Monthly view of lifts/logs and journal entries.
+      - Users can select a day and see the users lift that day and/or journal entry.
+      - Users can see bodyweight on that day and/or protein (green or red if it met the users goal), if it was logged.
+    * Detail View
+      - Table that can be changed by the user selecting a muscle group, by diagram, or a specific lift
+      - Table should also be able to be changed by range of date.
+      - Table will show and compare the lifts (color compare) according to the filters user configured.
+    * Log / Create Entry / Lift
+      - User can enter photo, protein, bodyweight, and a title and journal for the day/lift (not every day will include a workout/lift)
+      - User can enter lifts they performed, sets, reps, and weight. For each set, they can add a short note to what it was. I.e, superset, dropset, pause, etc.
+    * Settings
+      - User can rearrange views on navbar, customize the colors of the UI, or select a different theme.
+      - ?? additional features
+
   *Scetching*
 
+  With these interviews and goals in mind, I started schetching prototypes of the design, here they are:
+   
   *Prototyping & Feedback*
 
   *Implementation Start Version*
