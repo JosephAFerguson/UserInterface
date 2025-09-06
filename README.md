@@ -2,6 +2,7 @@
 Hello this is the readme where I will include the content/portfolio for this class.
 
 ### HW_1C
+<details>
 I started with the basic template and then added the html tags I needed. I gave them classes and id's that made sense with the layout I had faintly in my mind. I then added styles. Not good looking, but a variety to try and show what I've learned. This was the final result of coding activity 1.
 <img width="1894" height="901" alt="image" src="https://github.com/user-attachments/assets/fd13b7be-552b-4569-bdf6-7389a7392a03" />
 Doing coding activity 2 I added the script, with the event listener and template entries and functions. I then decided I wanted the "stats" to be at the top of the screen, and the past entries at the bottom of the screen so I added those accordingly in my html and css. I filled out the template functions. Here I decided I wanted three faces to change with my current mood, so I added more svg shapes. After those additions I was finished. This was the final result of coding activity 2.
@@ -15,5 +16,5 @@ If I add this journal entry:
 I get these new stats at the top of my screen: 
 
 <img width="425" height="264" alt="image" src="https://github.com/user-attachments/assets/3e8b2e52-8af1-42f2-bd54-eef8e08c2486" />
-
+</details>
 
