@@ -77,6 +77,7 @@ Here is my documentation of my work on project 1.
   
 
   *Prototyping & Feedback*
+  
   Done with sketching, ideating, I finalized the prototypes.
   
    - Dashboard View: 
@@ -105,6 +106,7 @@ Here is my documentation of my work on project 1.
    - Blake: Liked the layout of the application itself. Didn't say anything about the dashboard view, pointed out the same problem with the calendar view Carson had. He liked the details view with the diagram of the muscle groups on the body. He liked the log view in particular.
 
  Based on the feedback, I will need to improve the calendar view in the implementation.
+ 
  *Mock User*
 
  My user will be a copy of me. I already journal my workouts, so an application like this would benefit me a lot. For physical characteristics, my bodyweight is 170, and my total is hovering around 950 right now. I get at least 100 grams of protein per day. I tend to stick to SBD lifts and accessories in the 3-5 sets range and 5-9 rep range. The copy of me that uses the application will check the SBD progress each time I test my max in those lifts. I would also check the details view for a comparison on a previous set I did with the one I just performed. Every now and then I would check the calendar view to see where I was a month or year ago. I would of course use the log view to log a day and the workout. This application would help me track my progress and keep me discplined.
