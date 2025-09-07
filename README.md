@@ -1,7 +1,7 @@
 # UserInterface
 Hello this is the readme where I will include the content/portfolio for this class.
 
-### [Project 1](readmes/Project1.readme)
+### [Project 1](readmes/Project1_README.md)
 ### HW_1C
 <details>
 I started with the basic template and then added the html tags I needed. I gave them classes and id's that made sense with the layout I had faintly in my mind. I then added styles. Not good looking, but a variety to try and show what I've learned. This was the final result of coding activity 1.
@@ -23,7 +23,7 @@ I get these new stats at the top of my screen:
 <details>
   I started with the advanced javascript tutorial linked. Fortunately, I have already had a little experience with javascript so reviewing this material was not too hard. I then completely the part 1 of the homework - the advanced javascript questions.
   After this I followed throught the svelte tutorial, downloaded vscode, node.jc, and setup my svelte project folder in vscode for project 1. This completeled one task for the svelte part of this HW.
-  The next things to do were to contribute to project 1. I will link that here [Project 1](readmes/Project1.readme).
+  The next things to do were to contribute to project 1. I will link that here [Project 1](readmes/Project1_README.md).
 </details>
 
 
