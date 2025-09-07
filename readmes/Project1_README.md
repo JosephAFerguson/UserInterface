@@ -1,4 +1,5 @@
 # Introduction to Project 1
+
 Project 1 is an individual project aimed at helping a user record their journey. 
 Whether it be health, hobbies, sports, skills, financial, this project is meant to help them track their progress on this journey. 
 Students are supposed to pick one of these themes and design an application around this. 
@@ -7,6 +8,7 @@ Once they are done with prototyping the interface, they will create a mock user 
 Here is my documentation of my work on project 1.
 
 # Design
+<details>
   *Interviews*
 
   For this project, I interviewed 2 of my friends, Carson and Blake, who are active in bodybuilding and powerlifting. Going into the interviews I wanted to learn what metrics I should show, and which are the most important or should be the most prominent on the screen. I wanted to know what kinda of visuals/charts I want to show. My last thing I wanted to know was a broader scope of how I should design how users track their own progress.
@@ -95,7 +97,16 @@ Here is my documentation of my work on project 1.
   Here is the finalized navbar / outer layout: 
   <img width="896" height="732" alt="image" src="https://github.com/user-attachments/assets/12aab2a4-01ff-43d1-b2ad-5782f91f009c" />
 
-  *Implementation Start Version*
+  I got feedback from the same friends I interviewed. Here is a synthesis of what they said:
 
+   - Carson: Likes the simpleness of the dashboard view, thinks the calendar view could be impproved by changing the layout of the entry view and having the actual calendar smaller. Didn't say anything about the detail view. He saw that I missed a button for adding a lift to the log view and pointed that out (I will be fixing that in implementation). He thought it looked good overall.
 
+   - Blake: Liked the layout of the application itself. Didn't say anything about the dashboard view, pointed out the same problem with the calendar view Carson had. He liked the details view with the diagram of the muscle groups on the body. He liked the log view in particular.
 
+ Based on the feedback, I will need to improve the calendar view in the implementation.
+ *Mock User*
+
+ My user will be a copy of me. I already journal my workouts, so an application like this would benefit me a lot. For physical characteristics, my bodyweight is 170, and my total is hovering around 950 right now. I get at least 100 grams of protein per day. I tend to stick to SBD lifts and accessories in the 3-5 sets range and 5-9 rep range. The copy of me that uses the application will check the SBD progress each time I test my max in those lifts. I would also check the details view for a comparison on a previous set I did with the one I just performed. Every now and then I would check the calendar view to see where I was a month or year ago. I would of course use the log view to log a day and the workout. This application would help me track my progress and keep me discplined.
+</details>
+# Implementation
+<details></details>
