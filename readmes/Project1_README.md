@@ -69,6 +69,7 @@ Here is my documentation of my work on project 1.
     - Detail View: <img width="405" height="259" alt="image" src="https://github.com/user-attachments/assets/aba3e06a-6eb8-41c9-b2a4-1ee7313608c2" />
     - Log View: <img width="414" height="261" alt="image" src="https://github.com/user-attachments/assets/a1f81b76-e20f-4f41-9bc3-a822911dbc16" />
 
+  Here is the finalized navbar / outer layout: <img width="896" height="732" alt="image" src="https://github.com/user-attachments/assets/12aab2a4-01ff-43d1-b2ad-5782f91f009c" />
 
   *Prototyping & Feedback*
 
