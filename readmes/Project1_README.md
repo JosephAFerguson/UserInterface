@@ -71,7 +71,11 @@ Here is my documentation of my work on project 1.
    * For the log view, I thought simple would be best for a picture submit, entry, title, bodyweight, protein, and record lift scrollable div/box. For settings, I didn't sketch anything. This part will most likely be left open for future additions. I will probably include a button to change the theme: day, night, ocean (or something like that), etc.
    
 
-  Here are the views:
+  
+
+  *Prototyping & Feedback*
+  Done with sketching, ideating, I finalized the prototypes.
+  
    - Dashboard View: 
    
    <img width="538" height="334" alt="image" src="https://github.com/user-attachments/assets/519f4dd6-7f43-468a-bc71-a50282bc38d9" />
@@ -90,8 +94,6 @@ Here is my documentation of my work on project 1.
 
   Here is the finalized navbar / outer layout: 
   <img width="896" height="732" alt="image" src="https://github.com/user-attachments/assets/12aab2a4-01ff-43d1-b2ad-5782f91f009c" />
-
-  *Prototyping & Feedback*
 
   *Implementation Start Version*
 
