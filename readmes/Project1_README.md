@@ -51,8 +51,25 @@ Here is my documentation of my work on project 1.
 
   *Scetching*
 
-  With these interviews and goals in mind, I started schetching prototypes of the design, here they are:
-   
+  With these interviews and goals in mind, I started schetching prototypes of the design. I used the variation on the 10+10 method, the 10 minutes+10 minutes. I was having trouble formulating a way to include the views I wanted. I came up with 3 different methods for showing the different views.
+   1. Navbar on Top.
+     <img width="940" height="852" alt="image" src="https://github.com/user-attachments/assets/83fefbaa-0cea-41b5-af7e-5bb287c00746" />
+ 
+   2. No Navbar. I didn't personally like this idea, but it was helpful to scetch out how the views would look.
+    <img width="495" height="471" alt="image" src="https://github.com/user-attachments/assets/141faef4-e213-47eb-8afa-e652805a97af" />
+ 
+   3. Navbad on the side. I merged the dashboard and details view, which I did not like when I finished. Besides that this was my favorite.
+    <img width="656" height="536" alt="image" src="https://github.com/user-attachments/assets/d3d21e7e-d43c-4bd8-add5-e556f8e0387e" />
+
+  Since, I was not going to actually implement the sketch with no navbar, I decided to sketch the views themselves. For the Dashboard view, I was liking the idea of singular card/boxes for the trending 3 lifts (these boxes are called something specific for business analytics but I forget). I also liked a time scroll for the main chart, instead of inputting a date range because I thought it was faster and cleaner to look at. From the start, I had three toggles on the main chart for each of the 3 lifts, I decided I could have all 3 be the default on the line chart, and the user can press the buttons to toggle an individual lift or whatnot. For the calendar view, I liked having a regular calendar view with a entry div/view next to it, with the entry details. For the detail view, to show by muscle group or by lift, I thought included a clickable diagram of the human body would be helpful. For a specific lift, just a text entry that autofills with the lift of choice is appropriate. The table will just have also have a time scroll like the dashboard, and it will include sets in the filters over the time selected. For the log view, I thought simple would be best for a picture submit, entry, title, bodyweight, protein, and record lift scrollable div/box. For settings, I didn't sketch anything. This part will most likely be left open for future additions. I will probably include a button to change the theme: day, night, ocean (or something like that), etc.
+
+  Here are the views:
+    - Dashboard View: <img width="538" height="334" alt="image" src="https://github.com/user-attachments/assets/519f4dd6-7f43-468a-bc71-a50282bc38d9" />
+    - Calendar View: <img width="508" height="300" alt="image" src="https://github.com/user-attachments/assets/2869bd1e-9ec5-4538-9fbb-b2e6f0f17099" />
+    - Detail View: <img width="405" height="259" alt="image" src="https://github.com/user-attachments/assets/aba3e06a-6eb8-41c9-b2a4-1ee7313608c2" />
+    - Log View: <img width="414" height="261" alt="image" src="https://github.com/user-attachments/assets/a1f81b76-e20f-4f41-9bc3-a822911dbc16" />
+
+
   *Prototyping & Feedback*
 
   *Implementation Start Version*
