@@ -115,4 +115,6 @@ Here is my documentation of my work on project 1.
 
 # About the Interface
 
+npm install svelte-spa-router
+
 <details></details>
