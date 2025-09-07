@@ -9,6 +9,7 @@ Here is my documentation of my work on project 1.
 
 # Design
 <details>
+ 
   *Interviews*
 
   For this project, I interviewed 2 of my friends, Carson and Blake, who are active in bodybuilding and powerlifting. Going into the interviews I wanted to learn what metrics I should show, and which are the most important or should be the most prominent on the screen. I wanted to know what kinda of visuals/charts I want to show. My last thing I wanted to know was a broader scope of how I should design how users track their own progress.
