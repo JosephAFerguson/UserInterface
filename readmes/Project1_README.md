@@ -123,7 +123,7 @@ Notes: to run the code locally using node.js, vite, svelte, and whatnot, you nee
  - npm install chart.js
 
 Interface Overview: 
-
+<details>
   My app is a tracking application for people who are dedicated to lifting weights, particularly powerlifting. It's layout consists of a header, that shows the user welcome information such as their name, date, week streak for logging, their current total and bodyweight in lbs. It has a navigation bar for the user to navigate between the views they will use to track and log their progress.
 
    - Dashboard View:
@@ -168,4 +168,4 @@ Interface Overview:
 
 
 
-<details></details>
+</details>
