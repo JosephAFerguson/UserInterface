@@ -1,5 +1,7 @@
 # Introduction to Project 1
 
+Public Link to view: https://jf-userinterfaceproj1.netlify.app/#/
+
 Project 1 is an individual project aimed at helping a user record their journey. 
 Whether it be health, hobbies, sports, skills, financial, this project is meant to help them track their progress on this journey. 
 Students are supposed to pick one of these themes and design an application around this. 
@@ -115,7 +117,27 @@ Here is my documentation of my work on project 1.
 
 # About the Interface
 
-npm install svelte-spa-router
-npm install chart.js
+Notes: to run the code locally using node.js, vite, svelte, and whatnot, you need to install these libraries:
+
+ - npm install svelte-spa-router
+ - npm install chart.js
+
+Interface Overview: 
+
+  My app is a tracking application for people who are dedicated to lifting weights, particularly powerlifting. It's layout consists of a header, that shows the user welcome information such as their name, date, week streak for logging, their current total and bodyweight in lbs. It has a navigation bar for the user to navigate between the views they will use to track and log their progress.
+
+   - Dashboard View:
+   - Here the user can see their progress over the week for their big 3 lifts: squat, bench, and deadlift all in a line chart. They can select the metric cards to filter the line chart so that they are only seeing the metric they selected. If they unselect the same metric all three lifts will show again on the chart.
+   - I had a vertical scrollbar feature the user could use to filter the date range the chart pulls from, however, with the little time, I decided to comment it out and leave it out for now. It is something that can be added in the future.
+
+   - Calendar View:
+   - Here the user can select a date on the calendar in the top left to view what they logged for that day. A dot appears on the days where they logged something. They can also change the month and year to filter the calendar.
+   - After selecting a day they logged an entry, that entry will appear. They will be able to see and edit their picture, bodyweight, and protein in the right side. They can also see and edit their workout for that day in the bottom. They can change the weight, reps for a set. They can add or remove a set, or change the specific exercise they performed. However, they can not add or remove an exercise. At the time, I thought users might misuse this power and log stuff they did not do. However, since they can technically log whatever they want, I could add the feature to add and remove the lifts in the future.
+
+   - Detail View:
+   - Here the user can see the sets they performed for a specific exercise, for a specific muscle group, or for all exercises in general.
+   - They can filter via muscle group by selecting one on the diagram. If they want to remove this filter they can press escape, or click the same muscle group again. This will filter down the exercises list and the table of sets.
+   - They can filter a specific exercise by selecting from the exercise list on the right. This will undo a muscle group filter, and will filter the table as a result.
+   - They can view the details of the set, the weight and reps, and if there are no filters for a specific exercise selected, the table will also list the exercise
 
 <details></details>
