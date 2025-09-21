@@ -139,6 +139,7 @@ Interface Overview:
 
    - Here the user can select a date on the calendar in the top left to view what they logged for that day. A dot appears on the days where they logged something. They can also change the month and year to filter the calendar.
    - After selecting a day they logged an entry, that entry will appear. They will be able to see and edit their picture, bodyweight, and protein in the right side. They can also see and edit their workout for that day in the bottom. They can change the weight, reps for a set. They can add or remove a set, or change the specific exercise they performed. However, they can not add or remove an exercise. At the time, I thought users might misuse this power and log stuff they did not do. However, since they can technically log whatever they want, I could add the feature to add and remove the lifts in the future.
+   - When the user clicks the save button it will save the updates, and show the user confirmation with a popup.
 
    - Detail View:
 
@@ -148,5 +149,23 @@ Interface Overview:
    - They can filter via muscle group by selecting one on the diagram. If they want to remove this filter they can press escape, or click the same muscle group again. This will filter down the exercises list and the table of sets.
    - They can filter a specific exercise by selecting from the exercise list on the right. This will undo a muscle group filter, and will filter the table as a result.
    - They can view the details of the set, the weight and reps, and if there are no filters for a specific exercise selected, the table will also list the exercise
+
+   - Log View:
+
+   - <img width="1914" height="923" alt="image" src="https://github.com/user-attachments/assets/95ae0fe1-c733-48f5-b5d1-fee7184f43d9" />
+
+   - Here the user can log an entry for a specific day. They can add a picture, add journal notes, the title of the workout, the bodyweight and protein intake for the day, and their workout.
+   - For the workout, they can add and remove lifts, select weight and reps, and add and remove sets.
+   - Once the user clicks the submit button, it will save the entry, and show the user via a popup.
+
+   - Settings View:
+
+   - <img width="1910" height="926" alt="image" src="https://github.com/user-attachments/assets/63787b2a-9f0d-45e8-9892-42603bdf2a0d" />
+
+   - Here the user can change the theme between dark and light mode.
+   - The user can also disable protein tracking, and set a bodyweight goal.
+   - If the user is at or below this goal, the header card will reflect this by turning the text green. For example, if their goal bodyweight is 170 and they are 165, they have met the goal.
+
+
 
 <details></details>
