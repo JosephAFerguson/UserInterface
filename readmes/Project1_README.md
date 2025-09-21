@@ -86,14 +86,18 @@ Here is my documentation of my work on project 1.
    - Dashboard View: 
    
    <img width="538" height="334" alt="image" src="https://github.com/user-attachments/assets/519f4dd6-7f43-468a-bc71-a50282bc38d9" />
+   <img width="1721" height="830" alt="image" src="https://github.com/user-attachments/assets/625e82f2-e170-4d59-ae64-f03e5e3d3a43" />
    
    - Calendar View: 
    
    <img width="508" height="300" alt="image" src="https://github.com/user-attachments/assets/2869bd1e-9ec5-4538-9fbb-b2e6f0f17099" />
-   
+   <img width="1715" height="823" alt="image" src="https://github.com/user-attachments/assets/62f30872-6df7-4de2-a94f-ed9e4659ddcc" />
+
    - Detail View: 
    
    <img width="405" height="259" alt="image" src="https://github.com/user-attachments/assets/aba3e06a-6eb8-41c9-b2a4-1ee7313608c2" />
+   <img width="1697" height="822" alt="image" src="https://github.com/user-attachments/assets/ddb4bb3f-ff5f-466e-9503-c8e0b6d893f3" />
+   <img width="1714" height="813" alt="image" src="https://github.com/user-attachments/assets/44efc748-413d-4a13-b974-3b55d6e7d674" />
    
    - Log View: 
    
@@ -128,14 +132,14 @@ Interface Overview:
 
    - Dashboard View:
      
-   - <img width="1914" height="921" alt="image" src="https://github.com/user-attachments/assets/b6d00adb-2848-4396-af8e-3740e09c4655" />
+   <img width="1914" height="921" alt="image" src="https://github.com/user-attachments/assets/b6d00adb-2848-4396-af8e-3740e09c4655" />
    
    - Here the user can see their progress over the week for their big 3 lifts: squat, bench, and deadlift all in a line chart. They can select the metric cards to filter the line chart so that they are only seeing the metric they selected. If they unselect the same metric all three lifts will show again on the chart.
    - I had a vertical scrollbar feature the user could use to filter the date range the chart pulls from, however, with the little time, I decided to comment it out and leave it out for now. It is something that can be added in the future.
 
    - Calendar View:
 
-   - <img width="1914" height="921" alt="image" src="https://github.com/user-attachments/assets/7f82cd6b-8fb8-4da1-9704-47af6de1e092" />
+   <img width="1914" height="921" alt="image" src="https://github.com/user-attachments/assets/7f82cd6b-8fb8-4da1-9704-47af6de1e092" />
 
    - Here the user can select a date on the calendar in the top left to view what they logged for that day. A dot appears on the days where they logged something. They can also change the month and year to filter the calendar.
    - After selecting a day they logged an entry, that entry will appear. They will be able to see and edit their picture, bodyweight, and protein in the right side. They can also see and edit their workout for that day in the bottom. They can change the weight, reps for a set. They can add or remove a set, or change the specific exercise they performed. However, they can not add or remove an exercise. At the time, I thought users might misuse this power and log stuff they did not do. However, since they can technically log whatever they want, I could add the feature to add and remove the lifts in the future.
@@ -143,7 +147,7 @@ Interface Overview:
 
    - Detail View:
 
-   - <img width="1911" height="926" alt="image" src="https://github.com/user-attachments/assets/9045fff9-87d1-4f56-9ed9-6d0bac87afa1" />
+   <img width="1911" height="926" alt="image" src="https://github.com/user-attachments/assets/9045fff9-87d1-4f56-9ed9-6d0bac87afa1" />
 
    - Here the user can see the sets they performed for a specific exercise, for a specific muscle group, or for all exercises in general.
    - They can filter via muscle group by selecting one on the diagram. If they want to remove this filter they can press escape, or click the same muscle group again. This will filter down the exercises list and the table of sets.
@@ -152,7 +156,9 @@ Interface Overview:
 
    - Log View:
 
-   - <img width="1914" height="923" alt="image" src="https://github.com/user-attachments/assets/95ae0fe1-c733-48f5-b5d1-fee7184f43d9" />
+   <img width="1914" height="923" alt="image" src="https://github.com/user-attachments/assets/95ae0fe1-c733-48f5-b5d1-fee7184f43d9" />
+   <img width="1719" height="820" alt="image" src="https://github.com/user-attachments/assets/dce311f1-f93d-45ed-8a14-9936f107dd0e" />
+
 
    - Here the user can log an entry for a specific day. They can add a picture, add journal notes, the title of the workout, the bodyweight and protein intake for the day, and their workout.
    - For the workout, they can add and remove lifts, select weight and reps, and add and remove sets.
@@ -160,7 +166,11 @@ Interface Overview:
 
    - Settings View:
 
-   - <img width="1910" height="926" alt="image" src="https://github.com/user-attachments/assets/63787b2a-9f0d-45e8-9892-42603bdf2a0d" />
+   <img width="1910" height="926" alt="image" src="https://github.com/user-attachments/assets/63787b2a-9f0d-45e8-9892-42603bdf2a0d" />
+   <img width="1879" height="918" alt="image" src="https://github.com/user-attachments/assets/833dfc5b-c72d-4c8b-b899-b5b8b0e2634b" />
+   <img width="1007" height="169" alt="image" src="https://github.com/user-attachments/assets/6a68e372-44f0-49e3-9ba4-9983cda21c5d" />
+   <img width="1086" height="621" alt="image" src="https://github.com/user-attachments/assets/6ec9202c-5bf1-43e2-873a-57b4026c00ef" />
+
 
    - Here the user can change the theme between dark and light mode.
    - The user can also disable protein tracking, and set a bodyweight goal.
