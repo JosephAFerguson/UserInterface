@@ -198,4 +198,6 @@ Interface Overview:
 
    I have already listed a few features I would add on in the interface details. I would specifically add a feature to filter the dashboard chart by time, over a year period, over a month period etc. I would also add a feature to add or remove lifts in the calendar entry view. I would also add backend functionality so that it actually stores the entries and retains the user's information, making it more like an actual application that would be public ready.
 
+   Demo Video: 
+
 </details>
