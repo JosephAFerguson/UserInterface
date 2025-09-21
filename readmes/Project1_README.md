@@ -170,7 +170,8 @@ Interface Overview:
    <img width="1910" height="926" alt="image" src="https://github.com/user-attachments/assets/63787b2a-9f0d-45e8-9892-42603bdf2a0d" />
    <img width="1879" height="918" alt="image" src="https://github.com/user-attachments/assets/833dfc5b-c72d-4c8b-b899-b5b8b0e2634b" />
    <img width="1007" height="169" alt="image" src="https://github.com/user-attachments/assets/6a68e372-44f0-49e3-9ba4-9983cda21c5d" />
-   <img width="1086" height="621" alt="image" src="https://github.com/user-attachments/assets/6ec9202c-5bf1-43e2-873a-57b4026c00ef" />
+   <img width="1516" height="788" alt="image" src="https://github.com/user-attachments/assets/bdbf19fc-9376-4635-8905-1df2361de793" />
+
 
    - Here the user can change the theme between dark and light mode.
    - The user can also disable protein tracking, and set a bodyweight goal.
