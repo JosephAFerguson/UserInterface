@@ -6,7 +6,9 @@ Project 1 Code is listed at
 [JosephAFerguson
 /ProjCode/UserInterfaceProj1](https://github.com/JosephAFerguson/ProjCode/tree/main/UserInterfaceProj1)
 
+Project 1 Documentation is listed at
 ### [Project 1](readmes/Project1_README.md)
+### [P1 Demo Video](readmes/UserInterfaceProj1-Demo.mkv)
 ### HW_1C
 <details>
 I started with the basic template and then added the html tags I needed. I gave them classes and id's that made sense with the layout I had faintly in my mind. I then added styles. Not good looking, but a variety to try and show what I've learned. This was the final result of coding activity 1.
