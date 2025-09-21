@@ -172,11 +172,29 @@ Interface Overview:
    <img width="1007" height="169" alt="image" src="https://github.com/user-attachments/assets/6a68e372-44f0-49e3-9ba4-9983cda21c5d" />
    <img width="1086" height="621" alt="image" src="https://github.com/user-attachments/assets/6ec9202c-5bf1-43e2-873a-57b4026c00ef" />
 
-
    - Here the user can change the theme between dark and light mode.
    - The user can also disable protein tracking, and set a bodyweight goal.
    - If the user is at or below this goal, the header card will reflect this by turning the text green. For example, if their goal bodyweight is 170 and they are 165, they have met the goal.
 
+   Implementation & Approach:
 
+   This project took a lot of my time. I had an idea of what I was going to create pretty fast, and the sketching process was easy. I already knew what I wanted, because I already use a tracking app for my lifting.
+   For development, I used my preexisting knowledge of hmtl and css, and for svelte and javascript I used the tutorials gave in class.
+   I designed the html elements and functionality with svelte first. I tried to get it working, and then when it was working, I would complete the css styles.
+   However, after implementing the design from the sketching, I saw a few things that I went back and changed because I didn't like the way they looked in practice. Namely the calendar view and the dashboard view with the scrollbar.
+   I have already listed the external libraries I used for the project. I also used localStorage, which is built-in.
+
+   For the detail view I hand designed the svg muscle group diagrams using Inkscape, which I already had knowledge of. 
+
+   AI Usage:
+
+   I only used AI when necessary, and I did list in comments for which part I used AI. Specifically, I needed a little help with the calendar view itself, generating the month and days elements. I only pasted in code or div segments, never anything over 10 lines, as per the guidelines for this project.
+   I developed in VS code, so I had copilot running for autocompleting some repitive statements, and getting rid of some the accessibility warnings, mainly for buttons. I also used it for randomly generating entry data that would take me a while typing manually. Everything with copilot is also listed in the comments for this project.
+   For strengths, I would say the autocompletion for repitive segments was fairly accurate and helpful, chatgpt was helpful for some of the svelte elements when I was struggling with the calendar view. 
+   For weeknesses, I would say the css styles overall. The few times I tried giving it the div element and having it center it (something I struggle with), it would not work most of the time. I would have to google some css documentation to make the css styles how I wanted.
+
+   Future Additions:
+
+   I have already listed a few features I would add on in the interface details. I would specifically add a feature to filter the dashboard chart by time, over a year period, over a month period etc. I would also add a feature to add or remove lifts in the calendar entry view. I would also add backend functionality so that it actually stores the entries and retains the user's information, making it more like an actual application that would be public ready.
 
 </details>
