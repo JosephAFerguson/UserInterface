@@ -14,7 +14,7 @@ Project 2 Documentation is listed at
 ### [Project 2](https://github.com/JosephAFerguson/-UserInterface-Proj2)
 
 Project 3 Documentation is listed at 
-### [Project 3](https://github.com/JosephAFerguson/UserInterface-Proj3)
+### [Project 3](https://github.com/JosephAFerguson/UserInterfaceProj3)
 
 ### HW_1C
 <details>
