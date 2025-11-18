@@ -13,6 +13,9 @@ Project 1 Documentation is listed at
 Project 2 Documentation is listed at 
 ### [Project 2](https://github.com/JosephAFerguson/-UserInterface-Proj2)
 
+Project 3 Documentation is listed at 
+### [Project 3](https://github.com/JosephAFerguson/UserInterface-Proj3)
+
 ### HW_1C
 <details>
 I started with the basic template and then added the html tags I needed. I gave them classes and id's that made sense with the layout I had faintly in my mind. I then added styles. Not good looking, but a variety to try and show what I've learned. This was the final result of coding activity 1.
